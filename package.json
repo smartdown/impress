@@ -1,0 +1,25 @@
+{
+  "name": "smartdown-impress",
+  "version": "0.0.1",
+  "description": "Using Smartdown and Impress.js for a presentation",
+  "main": "index.js",
+  "directories": {
+  },
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "rmdsstore": "find . -name '.DS_Store' -print -delete",
+    "dev": "http-server -a localhost --cors -p 5000 -c-1 -S -C ./ssl/server.cert -K ./ssl/server.key site",
+    "ghpublish": "./publish.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartdown/impress.git"
+  },
+  "author": "Daniel Keith <dan@quantumclay.com> (https://doctorbud.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartdown/impress/issues"
+  },
+  "homepage": "https://github.com/smartdown/impress#readme"
+}

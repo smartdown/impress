@@ -1,0 +1,10 @@
+.step {
+    border: 4px solid lavender;
+    background: aliceblue;
+}
+
+
+#Overview.step {
+    background: steelblue;
+    border-radius: 6px;
+}

@@ -1,0 +1,10 @@
+.step {
+    border: none;
+    border-radius: 6px;
+    background: ghostwhite;
+}
+
+
+#Overview.step {
+    background: darkslateblue;
+}

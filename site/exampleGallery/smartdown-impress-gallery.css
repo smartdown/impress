@@ -1,0 +1,17 @@
+.step {
+    border: 1px solid lightgreen;
+    border-radius: 6px;
+    background: ivory;
+    border: none;
+    border-radius: 6px;
+    background: ghostwhite;
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    padding: 20px 40px;
+    margin: 20px auto;
+}
+
+#Overview.step {
+    background: darkslateblue;
+}
