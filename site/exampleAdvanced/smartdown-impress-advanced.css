@@ -1,10 +1,15 @@
 .step {
-    border: none;
-    border-radius: 6px;
-    background: ghostwhite;
+  border: none;
+  border-radius: 6px;
+  background: ghostwhite;
 }
 
 
-#Overview.step {
-    background: darkslateblue;
+#overview.step {
+  background: darkslateblue;
+}
+
+
+#overview h6 {
+  text-align: center;
 }
