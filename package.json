@@ -1,6 +1,6 @@
 {
   "name": "smartdown-impress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Using Smartdown and Impress.js for a presentation",
   "main": "index.js",
   "directories": {

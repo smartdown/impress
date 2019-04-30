@@ -32,7 +32,7 @@ impress:
 
 ## What's the deal with Multislides?
 
-Smartdown supports a feature called [Multicards](https://smartdown.site/#gallery/Multicards.md) which enables an author to put the text for multiple Smartdown cards in a single file. For example, the following Smartdown text will be displayed as three separate cards in an ordinary Smartdown viewer. However, smartdown/impress will create three separate slides.
+Smartdown supports a feature called [Multicards](https://smartdown.github.io/smartdown/#Multicards) which enables an author to put the text for multiple Smartdown cards in a single file. For example, the following Smartdown text will be displayed as three separate cards in an ordinary Smartdown viewer. However, smartdown/impress will create three separate slides.
 
 ```markdown
  Apple
@@ -62,4 +62,7 @@ Book are sometimes read.
 # Versions
 
 **0.0.1** - Initial attempt at integrating Smartdown with Impress.js, including three examples. Requires Smartdown 0.0.118+. Another contribution here is the use of Manifest.md files and their frontmatter to help authors avoid HTML. Allow Smartdown tunnel syntax to be used to navigate within a presentation. Examples include a Smartdown Gallery example that demonstrates and stress-tests some Smartdown features. The exampleBasic/ example provide a pages.html to view slides one at a time without Impress.js.
+**0.0.2** - Uses latest impress.js build.
+
+
 
