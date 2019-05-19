@@ -1,0 +1,13 @@
+.step {
+  border: 4px solid lavender;
+  background: aliceblue;
+}
+
+#Overview.step {
+  background: darkslateblue;
+  border-radius: 6px;
+}
+
+#Overview h6 {
+  text-align: center;
+}
